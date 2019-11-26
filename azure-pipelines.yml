@@ -6,7 +6,7 @@ variables:
     value: 'cmedley-docker' # make sure it matches the name you used in the service connection
   
   - name: acrEndpoint
-    value: 'dockerhub.com' # replace with container registry endpoint
+    value: 'cmedley' # replace with container registry endpoint
 
   - name: tag
     value: '$(Build.BuildId)'
